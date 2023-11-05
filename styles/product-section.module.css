@@ -1,0 +1,42 @@
+.title {
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #e2081e;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-family: Calibri;
+  font-weight: 400;
+  color: #867d77;
+}
+
+.featured_products {
+  overflow: hidden;
+  height: 110vh;
+  padding: 0 5% 5% 5%;
+}
+
+.splitter {
+  display: flex;
+  flex-direction: row;
+  height: 90%;
+  padding-top: 1%;
+}
+
+.splitter_image {
+  object-fit: cover;
+  width: 60%;
+  height: 100%;
+}
+
+.product_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  overflow: hidden;
+  height: 100%;
+}

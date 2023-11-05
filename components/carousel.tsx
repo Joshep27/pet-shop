@@ -10,7 +10,7 @@ export default function Carousel({ images, responsive }) {
     return (
       <span
         className={styles.custom_dot}
-        style={{ background: active ? '#e7283c' : '#DAD6D3' }}
+        style={{ background: active ? '#E2081E' : '#DAD6D3' }}
         onClick={onClick}
       />
     );

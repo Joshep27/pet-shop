@@ -11,7 +11,7 @@ export const icons = [
   { src: '/location.svg', route: '/location' },
   { src: '/pet.svg', route: '/pets' },
   { src: '/user.svg', route: '/profile' },
-  { src: '/shopping-car.svg', route: '/shopping-car' },
+  { src: '/shopping-car-badge.svg', route: '/shopping-car' },
 ];
 
 export const options = [
@@ -43,3 +43,66 @@ export const carouselResponsive = {
     items: 1,
   },
 };
+
+export const categories = [
+  { name: 'Perros', src: '/category.svg' },
+  { name: 'Gatos', src: '/category.svg' },
+  { name: 'Peces', src: '/category.svg' },
+  { name: 'Roedores', src: '/category.svg' },
+  { name: 'Reptiles', src: '/category.svg' },
+  { name: 'Placeholder', src: '/category.svg' },
+];
+
+export const products = [
+  {
+    name: '1st Choice Puppy Chiot',
+    src: '/product.svg',
+    rating: 3,
+    price: '$9.99',
+  },
+  {
+    name: '1st Choice Puppy Chiot',
+    src: '/product.svg',
+    rating: 3,
+    price: '$9.99',
+  },
+  {
+    name: '1st Choice Puppy Chiot',
+    src: '/product.svg',
+    rating: 3,
+    price: '$9.99',
+  },
+  {
+    name: '1st Choice Puppy Chiot',
+    src: '/product.svg',
+    rating: 3,
+    price: '$9.99',
+  },
+  {
+    name: '1st Choice Puppy Chiot',
+    src: '/product.svg',
+    rating: 3,
+    price: '$9.99',
+  },
+  {
+    name: '1st Choice Puppy Chiot',
+    src: '/product.svg',
+    rating: 3,
+    price: '$9.99',
+  },
+];
+
+export const productSections = [
+  {
+    title: 'Productos Destacados',
+    subtitle: 'Lorem ipsum dolor sit amet.',
+    products: products,
+    order: 'normal',
+  },
+  {
+    title: 'Ultimos Productos',
+    subtitle: 'Lorem ipsum dolor sit amet.',
+    products: products,
+    order: 'reverse',
+  },
+];
