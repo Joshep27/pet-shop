@@ -1,0 +1,29 @@
+.search_input {
+  position: relative;
+  width: 30%;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #c8c2be;
+  border-radius: 5px;
+  font-family: 'Mulish';
+  color: #333333;
+}
+
+.input::placeholder {
+  font-family: 'Mulish';
+  color: #dad6d3;
+}
+
+.input[type='text']:focus {
+  --tw-ring-color: #777777;
+  border-color: #777777;
+}
+
+.icon {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  color: #c8c2be;
+}

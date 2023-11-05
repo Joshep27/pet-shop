@@ -3,6 +3,8 @@ import NProgress from 'nprogress';
 import Router from 'next/router';
 import Head from 'next/head';
 import { AppProps } from 'next/app';
+import 'primereact/resources/themes/lara-light-indigo/theme.css';
+import 'primeicons/primeicons.css';
 import '../styles.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
