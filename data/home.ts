@@ -25,3 +25,21 @@ export const socialNetworks = [
   { name: 'twitter', link: 'https://twitter.com' },
   { name: 'facebook', link: 'https://facebook.com' },
 ];
+
+export const carouselImages = [
+  { id: 1, src: '/dog.svg' },
+  { id: 2, src: '/dog.svg' },
+  { id: 3, src: '/dog.svg' },
+  { id: 4, src: '/dog.svg' },
+];
+
+export const carouselResponsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 1,
+  },
+  mobile: {
+    breakpoint: { max: 640, min: 0 },
+    items: 1,
+  },
+};
