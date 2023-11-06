@@ -1,4 +1,4 @@
-# pet-shop
+# Maxipet (Pet Shop UI)
 
 [![made-with-npm](https://img.shields.io/npm/v/npm.svg?logo=npm)](https://www.npmjs.com/)
 [![made-with-typescript](https://img.shields.io/npm/v/typescript.svg?logo=typescript)](https://www.typescriptlang.org/)
