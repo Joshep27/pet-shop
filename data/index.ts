@@ -1,23 +1,17 @@
-import {
-  carouselImages,
-  carouselResponsive,
-  categories,
-  icons,
-  labels,
-  options,
-  socialNetworks,
-  products,
-  productSections,
-} from './home';
-
 export {
-  options,
-  socialNetworks,
-  icons,
-  labels,
   carouselImages,
   carouselResponsive,
   categories,
+  categorySection,
+  icons,
+  labels,
+  options,
+  socialNetworks,
   products,
   productSections,
-};
+  ads,
+  services,
+  serviceSection,
+  brands,
+  brandSection,
+} from './home';

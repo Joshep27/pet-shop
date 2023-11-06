@@ -1,11 +1,22 @@
 import React from 'react';
 import styles from '../styles/home.module.css';
-import { Carousel, Navbar, ProductSection } from '../components';
 import {
+  AdSplitter,
+  Carousel,
+  Navbar,
+  ProductSection,
+  ServiceSection,
+  BrandSection,
+  CategorySection,
+} from '../components';
+import {
+  ads,
   carouselImages,
   carouselResponsive,
-  categories,
   productSections,
+  serviceSection,
+  brandSection,
+  categorySection,
 } from '../data';
 
 function HomePage() {
@@ -13,20 +24,14 @@ function HomePage() {
     <div className={styles.container}>
       <Navbar />
       <Carousel images={carouselImages} responsive={carouselResponsive} />
-      <section className={styles.shop_by_pets}>
-        <p className={styles.subtitle}>Lorem ipsum dolor sit amet. </p>
-        <h1 className={styles.title}>Una gran variedad de categorías</h1>
-        <div className={styles.categories}>
-          {categories.map((c) => (
-            <div className={styles.category} key={c.name}>
-              <img className={styles.category_image} src={c.src} />
-              <p className={styles.category_title}>{c.name}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+      <CategorySection {...categorySection} />
       <ProductSection {...productSections[0]} />
+      <AdSplitter ads={ads.slice(1, 3)} />
       <ProductSection {...productSections[1]} />
+      <AdSplitter ads={ads.slice(0, 1)} />
+      <ProductSection {...productSections[2]} />
+      <ServiceSection {...serviceSection} />
+      <BrandSection {...brandSection} />
     </div>
   );
 }

@@ -1,0 +1,61 @@
+.title {
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #e2081e;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-family: Calibri;
+  font-weight: 400;
+  color: #867d77;
+}
+
+.description {
+  font-size: 16px;
+  font-family: Calibri;
+  font-weight: 400;
+  padding: 2% 0;
+  color: #333333;
+}
+
+.section {
+  overflow: hidden;
+  height: 70vh;
+  padding: 0 5% 5% 5%;
+}
+
+.service_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 80%;
+}
+
+.service_card {
+  display: flex;
+  flex-direction: column;
+}
+
+.service_img {
+  height: 80px;
+  width: 80px;
+}
+
+.service_name {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  color: #333333;
+}
+
+.service_description {
+  width: 320px;
+  font-size: 14px;
+  font-family: Calibri;
+  font-weight: 400;
+  color: #5f5f5f;
+}

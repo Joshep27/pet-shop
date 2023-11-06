@@ -1,0 +1,11 @@
+.ad_splitter {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  padding: 0 5% 5% 5%;
+}
+
+.ad {
+  object-fit: cover;
+  height: 100%;
+}

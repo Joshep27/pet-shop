@@ -53,6 +53,12 @@ export const categories = [
   { name: 'Placeholder', src: '/category.svg' },
 ];
 
+export const categorySection = {
+  title: 'UNA GRAN VARIEDAD DE CATEGORÍAS',
+  subtitle: 'Lorem ipsum dolor sit amet.',
+  categories: categories,
+};
+
 export const products = [
   {
     name: '1st Choice Puppy Chiot',
@@ -94,15 +100,91 @@ export const products = [
 
 export const productSections = [
   {
-    title: 'Productos Destacados',
+    title: 'PRODUCTOS DESTACADOS',
     subtitle: 'Lorem ipsum dolor sit amet.',
     products: products,
     order: 'normal',
+    imgEnabled: true,
   },
   {
-    title: 'Ultimos Productos',
+    title: 'PRODUCTOS POPULARES',
+    subtitle: 'Lorem ipsum dolor sit amet.',
+    products: products.slice(0, 5),
+    order: 'normal',
+  },
+  {
+    title: 'ULTIMOS PRODUCTOS',
     subtitle: 'Lorem ipsum dolor sit amet.',
     products: products,
     order: 'reverse',
+    imgEnabled: true,
   },
 ];
+
+export const ads = [
+  { src: '/ad-dog-ball.svg' },
+  { src: '/ad-dog-food.svg' },
+  { src: '/ad-food.svg' },
+];
+
+export const services = [
+  {
+    name: 'Peluquería',
+    src: '/service.svg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus molestie rhoncus id nunc, porta leo tempus facilisi.',
+  },
+  {
+    name: 'Odontología',
+    src: '/service.svg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus molestie rhoncus id nunc, porta leo tempus facilisi.',
+  },
+  {
+    name: 'Veterinario',
+    src: '/service.svg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus molestie rhoncus id nunc, porta leo tempus facilisi.',
+  },
+  {
+    name: 'Entrenamiento',
+    src: '/service.svg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus molestie rhoncus id nunc, porta leo tempus facilisi.',
+  },
+  {
+    name: 'Psicología canina',
+    src: '/service.svg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus molestie rhoncus id nunc, porta leo tempus facilisi.',
+  },
+  {
+    name: 'Fiestas de cumpleaños',
+    src: '/service.svg',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus molestie rhoncus id nunc, porta leo tempus facilisi.',
+  },
+];
+
+export const serviceSection = {
+  title: 'NUESTROS SERVICIOS',
+  subtitle: 'Lorem ipsum dolor sit amet.',
+  description:
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In velit ut viverra fames sed.',
+  services: services,
+};
+
+export const brands = [
+  { src: '/brand.svg' },
+  { src: '/brand.svg' },
+  { src: '/brand.svg' },
+  { src: '/brand.svg' },
+];
+
+export const brandSection = {
+  title: 'TRABAJAMOS CON LAS MEJORES MARCAS',
+  subtitle: 'Lorem ipsum dolor sit amet.',
+  description:
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In velit ut viverra fames sed.',
+  brands: brands,
+};

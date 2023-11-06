@@ -1,0 +1,43 @@
+.title {
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #e2081e;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-family: Calibri;
+  font-weight: 400;
+  color: #867d77;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category_image {
+  width: 160px;
+  height: 176px;
+}
+
+.category_title {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  color: #333333;
+}
+
+.shop_by_pets {
+  overflow: hidden;
+  height: 50vh;
+  padding: 5%;
+}
