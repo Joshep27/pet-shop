@@ -1,10 +1,9 @@
 import React from 'react';
 import styles from '../styles/navbar.module.css';
 import { Dropdown, Search, IconBar, LabelBar } from '../components';
-import { options, socialNetworks, labels, icons } from '../data';
 import classnames from 'classnames';
 
-export default function Navbar() {
+export default function Navbar({ options, socialNetworks, labels, icons }) {
   const createSocialNetworks = () => {
     return socialNetworks.map((s) => (
       <a
