@@ -4,7 +4,7 @@
 [![made-with-typescript](https://img.shields.io/npm/v/typescript.svg?logo=typescript)](https://www.typescriptlang.org/)
 [![made-with-nodejs](https://img.shields.io/npm/v/node.svg?logo=nodedotjs)](https://nodejs.org/en)
 [![made-with-react](https://img.shields.io/npm/v/react.svg?logo=react)](https://react.dev/)
-[![made-with-nextjs](https://img.shields.io/npm/v/react.svg?logo=react)](https://nextjs.org/)
+[![made-with-nextjs](https://img.shields.io/npm/v/next.svg?logo=nextdotjs)](https://nextjs.org/)
 
 Maxipet pet sales platform, developed with the Nextjs framework based on Reactjs
 
