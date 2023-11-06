@@ -8,6 +8,7 @@ import {
   ServiceSection,
   BrandSection,
   CategorySection,
+  Footer,
 } from '../components';
 import {
   ads,
@@ -17,6 +18,7 @@ import {
   serviceSection,
   brandSection,
   categorySection,
+  footerProps,
 } from '../data';
 
 function HomePage() {
@@ -32,6 +34,7 @@ function HomePage() {
       <ProductSection {...productSections[2]} />
       <ServiceSection {...serviceSection} />
       <BrandSection {...brandSection} />
+      <Footer {...footerProps} />
     </div>
   );
 }

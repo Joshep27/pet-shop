@@ -188,3 +188,55 @@ export const brandSection = {
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In velit ut viverra fames sed.',
   brands: brands,
 };
+
+export const footerSections = [
+  {
+    title: 'Sobre nosotros',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus molestie rhoncus id nunc, porta leo tempus facilisi.',
+  },
+  {
+    title: 'Mi cuenta',
+    hasLinks: true,
+    items: [
+      { text: 'Información personal', link: '/personal-information' },
+      { text: 'Direcciones', link: '/addresses' },
+      { text: 'Mascotas', link: '/pets' },
+      { text: 'Órdenes', link: '/orders' },
+      { text: 'Agenda', link: '/schedule' },
+    ],
+  },
+  {
+    title: 'Informacion',
+    hasLinks: true,
+    items: [
+      { text: 'Formulario de contacto', link: '/contact-form' },
+      { text: 'Preguntas frecuentes', link: '/faq' },
+      { text: 'Términos y condiciones', link: '/terms-and-conditions' },
+      { text: 'Política de privacidad', link: '/privacy-policy' },
+    ],
+  },
+  {
+    title: 'Informacion',
+    hasSocialNet: true,
+    items: [
+      { text: 'Bello Monte, calle XXXX, local 1' },
+      { text: '(0212) 575 54 12' },
+      { text: 'soporte@maxipet.com' },
+      { text: 'Lunes a Viernes' },
+      { text: '9:00 a.m. - 5:00 p.m.' },
+    ],
+    socialNetworks: socialNetworks,
+  },
+];
+
+export const footerProps = {
+  sections: footerSections,
+  copyright: {
+    text: 'Copyright © 2021 Maxi Pet. Todos los Derechos Reservados. Desarrollado por Avila Tek ',
+    icon: '/avila.svg',
+  },
+  icons: {
+    left: './dog-house.svg',
+    right: './tree.svg',
+  },
+};

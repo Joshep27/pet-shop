@@ -14,4 +14,6 @@ export {
   serviceSection,
   brands,
   brandSection,
+  footerSections,
+  footerProps,
 } from './home';
